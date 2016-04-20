@@ -1,0 +1,26 @@
+Debug 1 bot
+tools/maps/8planets/map1.txt "java -Xdebug -Xrunjdwp:transport=dt_socket,address=8998,server=y RandomBot" "java BullyBot" serial 100 10000
+
+Note: make one Engine.class file on port 8998
+
+--------------------------------
+
+Debug 2 bots
+tools/maps/8planets/map1.txt "java -Xdebug -Xrunjdwp:transport=dt_socket,address=8998,server=y RandomBot" "java -Xdebug -Xrunjdwp:transport=dt_socket,address=8999,server=y BullyBot" serial 100 10000
+
+Note: 
+- make one Engine.class file on port 8998
+- make one Engine2.class file on port 8999
+- you have to click on these debug options when Eclipse says: player1 > engine: listening for transport dt_socket at address: 8998
+  or when Eclipse says: player2 > engine: listening for transport dt_socket at address: 8999
+  DON'T CLICK ON IT BEFORE ECLIPSE SAYS THIS! :)
+
+---------------------------------
+
+Run
+tools/maps/8planets/map1.txt "java -Xdebug RandomBot" "java BullyBot" serial 100 100
+
+---------------------------------
+Tips: 
+- Always change the System.err.println statement that is above, so that you can see if a change has been made.
+- If you don't react on time, the move of the bot will happen on a later turn.

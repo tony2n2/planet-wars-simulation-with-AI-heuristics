@@ -1,0 +1,2 @@
+Ideas:
+A beamsearch / minmaxbot that changes its search depth and with depending on the state of the game

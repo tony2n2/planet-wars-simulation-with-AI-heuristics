@@ -1,0 +1,58 @@
+Engine entering main game loop. Mode 'parallel'
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 1
+Client 2 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 2
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 1020ms) 
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 505ms) 
+Turn 3
+Turn 4
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 323ms) 
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 381ms) 
+== player1 skipped a turn. Check log file for info. ==
+Turn 5
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 232ms) 
+Turn 6
+Player 2 Wins!
+Engine entering main game loop. Mode 'parallel'
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 1
+Client 2 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 2
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 1008ms) 
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 475ms) 
+Turn 3
+Turn 4
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 319ms) 
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 222ms) 
+== player1 skipped a turn. Check log file for info. ==
+Turn 5
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 240ms) 
+Turn 6
+Player 2 Wins!
+Engine entering main game loop. Mode 'parallel'
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Client 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 1
+Client 2 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime (argument of PlayGame.jar).
+Turn 2
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 1026ms) 
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 502ms) 
+Turn 3
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 315ms) 
+Turn 4
+Player 1: MMBeamSearchBot: (Planets: 2;Time taken: 228ms) 
+== player1 skipped a turn. Check log file for info. ==
+Turn 5
+Player 1: MMBeamSearchBot: (Planets: 1;Time taken: 323ms) 
+Turn 6
+Player 2 Wins!
+Engine entering main game loop. Mode 'parallel'
+WARNING: player 2 crashed.
+Exception in thread "main" java.lang.NullPointerException
+	at playGame.Engine.main(Engine.java:260)
+	at playGame.botTester.playGames(botTester.java:43)
+	at playGame.botTester.start(botTester.java:25)
+	at playGame.botTester.main(botTester.java:126)

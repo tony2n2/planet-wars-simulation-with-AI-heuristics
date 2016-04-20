@@ -1,0 +1,7 @@
+*.jar
+*.class
+.classpath
+.externalToolBuilders
+.project
+.pydevproject
+maps
